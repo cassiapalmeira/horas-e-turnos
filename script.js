@@ -7,15 +7,15 @@ function carregar() {
 
     if (hora >= 0 && hora < 12) {
         // Manhã
-        img.scr = 'fotomanha.png'
+        img.scr = 'images/fotomanha.png'
         document.body.style.background = '#edd5ac'
     } else if (hora >= 12 && hora < 18) {
         // Tarde
-        img.src = 'fototarde.png'
+        img.src = 'images/fototarde.png'
         document.body.style.background = '#b9846f'
     } else {
         // Noite
-        img.src = 'fotonoite.png'
+        img.src = 'images/fotonoite.png'
         document.body.style.background = '#253648'
     }
 
